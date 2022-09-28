@@ -6,7 +6,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: 350px auto;
+    grid-template-columns: 310px auto;
     grid-template-rows: 100vh;
 }
 
@@ -18,17 +18,27 @@
     color: #ffffff;
 }
 
-.box {
+.box-hero {
     display: flex;
     align-items:center;
     padding: 10px;
     gap: 10px;
  }
 
-.box img {
+.box-hero img {
     width: 50px;
 }
 
+.box-sidebar {
+    display: flex;
+    align-items:center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.box-sidebar img {
+    width: 35px;
+}
 
 .content { 
     grid-area: 1 / 2 / 2 / 3;
